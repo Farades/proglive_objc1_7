@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84771BE91A2219DD00D02AE1 /* MTPCPU.m in Sources */ = {isa = PBXBuildFile; fileRef = 84771BE81A2219DD00D02AE1 /* MTPCPU.m */; };
+		84771BEC1A221A9400D02AE1 /* MTPMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 84771BEB1A221A9400D02AE1 /* MTPMemory.m */; };
+		84771BEF1A221AD200D02AE1 /* MTPHardDrive.m in Sources */ = {isa = PBXBuildFile; fileRef = 84771BEE1A221AD200D02AE1 /* MTPHardDrive.m */; };
+		84771BF21A221B2E00D02AE1 /* MTPComputer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84771BF11A221B2E00D02AE1 /* MTPComputer.m */; };
+		84771BF61A22224D00D02AE1 /* MTPWakeUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 84771BF51A22224D00D02AE1 /* MTPWakeUp.m */; };
+		84771BF91A22230E00D02AE1 /* MTPOven.m in Sources */ = {isa = PBXBuildFile; fileRef = 84771BF81A22230E00D02AE1 /* MTPOven.m */; };
+		84771BFC1A22237100D02AE1 /* MTPTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 84771BFB1A22237100D02AE1 /* MTPTimer.m */; };
+		84771BFF1A22269900D02AE1 /* MTPSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 84771BFE1A22269900D02AE1 /* MTPSingleton.m */; };
+		84771C011A22321100D02AE1 /* chainNonARC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84771C001A22321100D02AE1 /* chainNonARC.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		84771C041A22325700D02AE1 /* Figure.m in Sources */ = {isa = PBXBuildFile; fileRef = 84771C031A22325700D02AE1 /* Figure.m */; };
+		84771C071A22326900D02AE1 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84771C061A22326900D02AE1 /* Circle.m */; };
+		84771C0A1A22327400D02AE1 /* Rectangle.m in Sources */ = {isa = PBXBuildFile; fileRef = 84771C091A22327400D02AE1 /* Rectangle.m */; };
+		84771C0D1A22328400D02AE1 /* Ellipse.m in Sources */ = {isa = PBXBuildFile; fileRef = 84771C0C1A22328400D02AE1 /* Ellipse.m */; };
+		84EC6A061A21CE3A00E44E38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EC6A051A21CE3A00E44E38 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84EC6A001A21CE3A00E44E38 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		84771BE71A2219DD00D02AE1 /* MTPCPU.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPCPU.h; sourceTree = "<group>"; };
+		84771BE81A2219DD00D02AE1 /* MTPCPU.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPCPU.m; sourceTree = "<group>"; };
+		84771BEA1A221A9400D02AE1 /* MTPMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPMemory.h; sourceTree = "<group>"; };
+		84771BEB1A221A9400D02AE1 /* MTPMemory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPMemory.m; sourceTree = "<group>"; };
+		84771BED1A221AD200D02AE1 /* MTPHardDrive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPHardDrive.h; sourceTree = "<group>"; };
+		84771BEE1A221AD200D02AE1 /* MTPHardDrive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPHardDrive.m; sourceTree = "<group>"; };
+		84771BF01A221B2E00D02AE1 /* MTPComputer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPComputer.h; sourceTree = "<group>"; };
+		84771BF11A221B2E00D02AE1 /* MTPComputer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPComputer.m; sourceTree = "<group>"; };
+		84771BF31A2221CD00D02AE1 /* TimerAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerAction.h; sourceTree = "<group>"; };
+		84771BF41A22224D00D02AE1 /* MTPWakeUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPWakeUp.h; sourceTree = "<group>"; };
+		84771BF51A22224D00D02AE1 /* MTPWakeUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPWakeUp.m; sourceTree = "<group>"; };
+		84771BF71A22230E00D02AE1 /* MTPOven.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPOven.h; sourceTree = "<group>"; };
+		84771BF81A22230E00D02AE1 /* MTPOven.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPOven.m; sourceTree = "<group>"; };
+		84771BFA1A22237100D02AE1 /* MTPTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPTimer.h; sourceTree = "<group>"; };
+		84771BFB1A22237100D02AE1 /* MTPTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPTimer.m; sourceTree = "<group>"; };
+		84771BFD1A22269900D02AE1 /* MTPSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTPSingleton.h; sourceTree = "<group>"; };
+		84771BFE1A22269900D02AE1 /* MTPSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTPSingleton.m; sourceTree = "<group>"; };
+		84771C001A22321100D02AE1 /* chainNonARC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = chainNonARC.m; sourceTree = "<group>"; };
+		84771C021A22325700D02AE1 /* Figure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Figure.h; sourceTree = "<group>"; };
+		84771C031A22325700D02AE1 /* Figure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Figure.m; sourceTree = "<group>"; };
+		84771C051A22326900D02AE1 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		84771C061A22326900D02AE1 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		84771C081A22327400D02AE1 /* Rectangle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rectangle.h; sourceTree = "<group>"; };
+		84771C091A22327400D02AE1 /* Rectangle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rectangle.m; sourceTree = "<group>"; };
+		84771C0B1A22328400D02AE1 /* Ellipse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ellipse.h; sourceTree = "<group>"; };
+		84771C0C1A22328400D02AE1 /* Ellipse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ellipse.m; sourceTree = "<group>"; };
+		84771C0E1A22388F00D02AE1 /* chainNonARC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = chainNonARC.h; sourceTree = "<group>"; };
+		84EC6A021A21CE3A00E44E38 /* proglive_objc1_7 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = proglive_objc1_7; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EC6A051A21CE3A00E44E38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EC69FF1A21CE3A00E44E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84EC69F91A21CE3A00E44E38 = {
+			isa = PBXGroup;
+			children = (
+				84EC6A041A21CE3A00E44E38 /* proglive_objc1_7 */,
+				84EC6A031A21CE3A00E44E38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84EC6A031A21CE3A00E44E38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EC6A021A21CE3A00E44E38 /* proglive_objc1_7 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EC6A041A21CE3A00E44E38 /* proglive_objc1_7 */ = {
+			isa = PBXGroup;
+			children = (
+				84EC6A051A21CE3A00E44E38 /* main.m */,
+				84771BE71A2219DD00D02AE1 /* MTPCPU.h */,
+				84771BE81A2219DD00D02AE1 /* MTPCPU.m */,
+				84771BEA1A221A9400D02AE1 /* MTPMemory.h */,
+				84771BEB1A221A9400D02AE1 /* MTPMemory.m */,
+				84771BED1A221AD200D02AE1 /* MTPHardDrive.h */,
+				84771BEE1A221AD200D02AE1 /* MTPHardDrive.m */,
+				84771BF01A221B2E00D02AE1 /* MTPComputer.h */,
+				84771BF11A221B2E00D02AE1 /* MTPComputer.m */,
+				84771BF31A2221CD00D02AE1 /* TimerAction.h */,
+				84771BF41A22224D00D02AE1 /* MTPWakeUp.h */,
+				84771BF51A22224D00D02AE1 /* MTPWakeUp.m */,
+				84771BF71A22230E00D02AE1 /* MTPOven.h */,
+				84771BF81A22230E00D02AE1 /* MTPOven.m */,
+				84771BFA1A22237100D02AE1 /* MTPTimer.h */,
+				84771BFB1A22237100D02AE1 /* MTPTimer.m */,
+				84771BFD1A22269900D02AE1 /* MTPSingleton.h */,
+				84771BFE1A22269900D02AE1 /* MTPSingleton.m */,
+				84771C0E1A22388F00D02AE1 /* chainNonARC.h */,
+				84771C001A22321100D02AE1 /* chainNonARC.m */,
+				84771C021A22325700D02AE1 /* Figure.h */,
+				84771C031A22325700D02AE1 /* Figure.m */,
+				84771C051A22326900D02AE1 /* Circle.h */,
+				84771C061A22326900D02AE1 /* Circle.m */,
+				84771C081A22327400D02AE1 /* Rectangle.h */,
+				84771C091A22327400D02AE1 /* Rectangle.m */,
+				84771C0B1A22328400D02AE1 /* Ellipse.h */,
+				84771C0C1A22328400D02AE1 /* Ellipse.m */,
+			);
+			path = proglive_objc1_7;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EC6A011A21CE3A00E44E38 /* proglive_objc1_7 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EC6A091A21CE3A00E44E38 /* Build configuration list for PBXNativeTarget "proglive_objc1_7" */;
+			buildPhases = (
+				84EC69FE1A21CE3A00E44E38 /* Sources */,
+				84EC69FF1A21CE3A00E44E38 /* Frameworks */,
+				84EC6A001A21CE3A00E44E38 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = proglive_objc1_7;
+			productName = proglive_objc1_7;
+			productReference = 84EC6A021A21CE3A00E44E38 /* proglive_objc1_7 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EC69FA1A21CE3A00E44E38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = farades;
+				TargetAttributes = {
+					84EC6A011A21CE3A00E44E38 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 84EC69FD1A21CE3A00E44E38 /* Build configuration list for PBXProject "proglive_objc1_7" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84EC69F91A21CE3A00E44E38;
+			productRefGroup = 84EC6A031A21CE3A00E44E38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EC6A011A21CE3A00E44E38 /* proglive_objc1_7 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EC69FE1A21CE3A00E44E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84771BEC1A221A9400D02AE1 /* MTPMemory.m in Sources */,
+				84771BFF1A22269900D02AE1 /* MTPSingleton.m in Sources */,
+				84771BE91A2219DD00D02AE1 /* MTPCPU.m in Sources */,
+				84771BF61A22224D00D02AE1 /* MTPWakeUp.m in Sources */,
+				84771C0A1A22327400D02AE1 /* Rectangle.m in Sources */,
+				84771C041A22325700D02AE1 /* Figure.m in Sources */,
+				84771C0D1A22328400D02AE1 /* Ellipse.m in Sources */,
+				84771C011A22321100D02AE1 /* chainNonARC.m in Sources */,
+				84771BF91A22230E00D02AE1 /* MTPOven.m in Sources */,
+				84EC6A061A21CE3A00E44E38 /* main.m in Sources */,
+				84771BEF1A221AD200D02AE1 /* MTPHardDrive.m in Sources */,
+				84771C071A22326900D02AE1 /* Circle.m in Sources */,
+				84771BF21A221B2E00D02AE1 /* MTPComputer.m in Sources */,
+				84771BFC1A22237100D02AE1 /* MTPTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84EC6A071A21CE3A00E44E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		84EC6A081A21CE3A00E44E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		84EC6A0A1A21CE3A00E44E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84EC6A0B1A21CE3A00E44E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EC69FD1A21CE3A00E44E38 /* Build configuration list for PBXProject "proglive_objc1_7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EC6A071A21CE3A00E44E38 /* Debug */,
+				84EC6A081A21CE3A00E44E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EC6A091A21CE3A00E44E38 /* Build configuration list for PBXNativeTarget "proglive_objc1_7" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EC6A0A1A21CE3A00E44E38 /* Debug */,
+				84EC6A0B1A21CE3A00E44E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EC69FA1A21CE3A00E44E38 /* Project object */;
+}
